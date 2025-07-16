@@ -1,0 +1,6 @@
+crewai>=0.1.0
+langchain-community>=0.1.0
+langchain-openai>=0.1.0
+python-dotenv>=1.0.0
+faiss-cpu>=1.7.3 # or faiss-gpu if you have GPU support
+tavily-search>=0.1.0
