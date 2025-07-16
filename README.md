@@ -22,28 +22,28 @@ A simple, sequential “crew” of AI agents that (1) searches the web via Tavil
 ## 🔧 Installation
 
 1. **Clone this repository**  
-   git clone <your-repo-url>
-   cd <repo-folder>
+- git clone your-repo-url
+- cd repo-folder
 
 2. **Install dependencies**
 - pip install -r requirements.txt
 
 3. **Configure your API keys**
 - Create a .env file in the root directory:
-- OPENAI_API_KEY=sk-…
-- TAVILY_API_KEY=tv-…
+    OPENAI_API_KEY=sk-…
+    TAVILY_API_KEY=tv-…
 
 
 **▶️ Usage**
 - python multi_agent.py
 
 - You'll see:
-📘 Multi-Agent Research System
-🔍 Enter a topic: climate change
-🚀 Starting research on: climate change
-...
-✅ FINAL REPORT
-[300-word summary here]
+    - 📘 Multi-Agent Research System
+    - 🔍 Enter a topic: climate change
+    - 🚀 Starting research on: climate change
+    ...
+- ✅ FINAL REPORT
+    [300-word summary here]
 
 Type exit, quit or press Enter on an empty line to stop.
 
